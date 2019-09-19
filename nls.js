@@ -65,29 +65,29 @@ var nls = {
 		"en" : "CONTINUE",
 		"fr" : "CONTINUER"
 	},
-    "popup_CSDUID" : { //Census subdivision/Sous-division de recensement
-        "en" : "CSD",
-        "fr" : "SDR"
+    "popup_CSDUID" : { 
+        "en" : "<abbr title='Census subdivision'>CSD</abbr>",
+        "fr" : "<abbr title='Sous-division de recensement'>SDR</abbr>"
     },
     "popup_Data_prov" : {
         "en" : "Data provided by",
         "fr" : "Données fournies par"
     },
-    "popup_PRUID" : { //Province/province
-        "en" : "PR",
-        "fr" : "PR"
+    "popup_PRUID" : { 
+        "en" : "<abbr title='Province'>PR</abbr>",
+        "fr" : "<abbr title='Province'>PR</abbr>"
     },
-    "popup_CDUID" : { //Census division/Division de recensement
-        "en" : "CD",
-        "fr" : "DR"
+    "popup_CDUID" : { 
+        "en" : "<abbr title='Census division'>CD</abbr>",
+        "fr" : "<abbr title='Division de recensement'>DR</abbr>"
     },
-    "popup_CCSUID" : { //Census consolidated subdivision/Sous-division de recensement unifiée
-        "en" : "CCS",
-        "fr" : "SRU"
+    "popup_CCSUID" : { 
+        "en" : "<abbr title='Census consolidated subdivision'>CCS</abbr>",
+        "fr" : "<abbr title='Sous-division de recensement unifiée'>SRU</abbr>"
     },
-    "popup_ERUID" : { //Economic region/Région économique
-        "en" : "ER",
-        "fr" : "RE"
+    "popup_ERUID" : { 
+        "en" : "<abbr title='Economic region'>ER</abbr>",
+        "fr" : "<abbr title='Région économique'>RE</abbr>"
     },
     "popup_area" : {
         "en" : "Area",
@@ -98,12 +98,13 @@ var nls = {
         "fr" : "Périmètre" //m
     },
     "popup_DBUID" : {
-        "en" : "DB",
-        "fr" : "ID"
+        "en" : "<abbr title='Dissemination Block'>DB</abbr>",
+        "fr" : "<abbr title='Îlot de diffusion'>ID</abbr>" // OR <abbr title='Bloc de diffusion'>BD</abbr>
+	    //https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/other-autre/hierarch/h-fra.htm ??
     },
     "popup_DAUID" : {
-        "en" : "DA",
-        "fr" : "AD"
+        "en" : "<abbr title='Dissemination Area'>DA</abbr>",
+        "fr" : "<abbr title='Aire de diffusion'>AD</abbr>"
     },
     "popup_area_vert" : {
         "en" : "Area to vertices ratio",
